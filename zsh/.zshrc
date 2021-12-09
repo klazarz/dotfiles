@@ -124,6 +124,8 @@ alias nvimconfig="vi ~/.dotfiles/nvim/.config/nvim/init.vim"
 alias vim="nvim"
 alias vi="nvim"
 alias pr="open -a 'Preview'"
+alias dotfiles="cd ~/.dotfiles"
+
 
 if [ -f '.orca' ]; then
 alias orca="cd /Users/klazarz/Oracle\ Content\ -\ Accounts/Oracle\ Content/_orca"
@@ -142,3 +144,5 @@ if [ -f '.bubo' ]; then
     source /opt/homebrew/share/zsh-autosuggestions/zsh-autosuggestions.zsh
 fi
 
+
+[ -f ~/.fzf.zsh ] && source ~/.fzf.zsh
