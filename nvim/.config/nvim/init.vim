@@ -86,8 +86,11 @@ noremap <C-j> <C-W>j
 noremap <C-k> <C-W>k
 noremap <C-h> <C-W>h
 noremap <C-l> <C-W>l
-noremap <leader>= :vertical resize +5<CR>
-noremap <leader>- :vertical resize -5<CR>
+"noremap <leader>= :vertical resize +5<CR>
+"noremap <leader>- :vertical resize -5<CR>
+
+nnoremap <c-s-Left> <C-W>- :vertical resize -2<CR>
+nnoremap <c-s-Right> <C-W>+ :vertical resize +2<CR>
 
 map <leader>ss :setlocal spell!<cr>
 
@@ -95,6 +98,7 @@ map <leader>ss :setlocal spell!<cr>
 vnoremap <silent> * :<C-u>call VisualSelection('', '')<CR>/<C-R>=@/<CR><CR>
 vnoremap <silent> # :<C-u>call VisualSelection('', '')<CR>?<C-R>=@/<CR><CR>
 
+inoremap <expr> <TAB> pumvisible() ? "<C-y>" : "<TAB>"
 
 command! -bang -nargs=* Ag
   \ call fzf#vim#grep(

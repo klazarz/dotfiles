@@ -132,9 +132,13 @@ alias orca="cd /Users/klazarz/Oracle\ Content\ -\ Accounts/Oracle\ Content/_orca
 alias pp="open -b com.microsoft.Powerpoint"
 alias xx="open -b com.microsoft.Excel"
 alias ww="open -b com.microsoft.Word"
-alias team="cd /Users/klazarz/Oracle\ Content\ -\ Accounts/Oracle\ Content/_orca/06_NOTES/01_TEAM"
+alias notes="cd /Users/klazarz/Oracle\ Content\ -\ Accounts/Oracle\ Content/_orca/06_NOTES/"
 alias lab="cd /Users/klazarz/Documents/GitHub/learning-library"
 alias projects="cd /Users/klazarz/Oracle\ Content\ -\ Accounts/Oracle\ Content/_orca/02_WORK/01_PROJECTS"
+alias cmail="osascript -e 'tell application \"Microsoft Outlook\"' -e 'set newMessage to make new outgoing message' -e 'open newMessage' -e 'end tell'"
+
+alias vdiary="vi /Users/klazarz/Oracle\ Content\ -\ Accounts/Oracle\ Content/_orca/06_NOTES/diary.md"
+
 source /usr/local/share/zsh-autosuggestions/zsh-autosuggestions.zsh
 fi
 
