@@ -81,6 +81,8 @@ noremap <C-j> <C-W>j
 noremap <C-k> <C-W>k
 noremap <C-h> <C-W>h
 noremap <C-l> <C-W>l
+noremap <leader>+ :vertical resize +5<CR>
+noremap <leader>- :vertical resize -5<CR>
 
 map <leader>ss :setlocal spell!<cr>
 
