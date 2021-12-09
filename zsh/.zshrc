@@ -145,6 +145,10 @@ fi
 
 if [ -f '.bubo' ]; then 
     alias idrive="cd /Users/kevin/Library/Mobile\ Documents/com~apple~CloudDocs/"
+    alias notes="cd /Users/kevin/Documents/GitHub/notes/"
+    
+    alias vdiary="vi /Users/kevin/Documents/GitHub/notes/diary.md"
+    
     source /opt/homebrew/share/zsh-autosuggestions/zsh-autosuggestions.zsh
 fi
 

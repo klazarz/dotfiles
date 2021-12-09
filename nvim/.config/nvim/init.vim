@@ -52,6 +52,7 @@ Plug 'tpope/vim-fugitive'
 Plug 'vim-scripts/AutoComplPop'
 Plug 'junegunn/fzf', { 'do': { -> fzf#install() } }
 Plug 'junegunn/fzf.vim'
+Plug 'neovim/nvim-lspconfig'
 
 
 call plug#end()
@@ -108,3 +109,8 @@ command! -bang -nargs=* Ag
   \ call fzf#vim#grep(
   \   'ag --column --numbers --noheading --color --smart-case '.shellescape(<q-args>), 1,
   \   fzf#vim#with_preview(), <bang>0)
+
+lua << EOF
+require'lspconfig'.pyright.setup{}
+EOF
+
