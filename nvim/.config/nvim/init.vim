@@ -95,6 +95,10 @@ nnoremap <c-s-Right> <C-W>+ :vertical resize +2<CR>
 map <leader>ss :setlocal spell!<cr>
 
 
+:nmap <leader>v <C-w>t<C-w>H 
+:nmap <leader>h <C-w>t<C-w>K
+
+
 vnoremap <silent> * :<C-u>call VisualSelection('', '')<CR>/<C-R>=@/<CR><CR>
 vnoremap <silent> # :<C-u>call VisualSelection('', '')<CR>?<C-R>=@/<CR><CR>
 
