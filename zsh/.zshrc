@@ -11,7 +11,16 @@ fi
 # export PATH=$HOME/bin:/usr/local/bin:$PATH
 
 # Path to your oh-my-zsh installation.
+
+
+if [ -f '.bubo' ]; then 
 export ZSH="/Users/kevin/.oh-my-zsh"
+fi
+
+
+if [ -f '.orca' ]; then 
+export ZSH="/Users/klazarz/.oh-my-zsh"
+fi
 
 export EDITOR="/usr/local/bin/mate -w"
 
@@ -130,6 +139,6 @@ fi
 
 if [ -f '.bubo' ]; then 
     alias idrive="cd /Users/kevin/Library/Mobile\ Documents/com~apple~CloudDocs/"
+    source /opt/homebrew/share/zsh-autosuggestions/zsh-autosuggestions.zsh
 fi
 
-source /opt/homebrew/share/zsh-autosuggestions/zsh-autosuggestions.zsh
