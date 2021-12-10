@@ -138,7 +138,7 @@ alias projects="cd /Users/klazarz/Oracle\ Content\ -\ Accounts/Oracle\ Content/_
 alias cmail="osascript -e 'tell application \"Microsoft Outlook\"' -e 'set newMessage to make new outgoing message' -e 'open newMessage' -e 'end tell'"
 
 alias vdiary="vi /Users/klazarz/Oracle\ Content\ -\ Accounts/Oracle\ Content/_orca/06_NOTES/diary.md"
-
+alias todo="vi /Users/klazarz/Oracle\ Content\ -\ Accounts/Oracle\ Content/_orca/06_NOTES/TODO/work.md"
 source /usr/local/share/zsh-autosuggestions/zsh-autosuggestions.zsh
 fi
 
