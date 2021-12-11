@@ -148,7 +148,10 @@ if [ -f '.bubo' ]; then
     alias notes="cd /Users/kevin/Documents/GitHub/notes/"
     
     alias vdiary="vi /Users/kevin/Documents/GitHub/notes/diary.md"
+
+    alias todo="vi /Users/kevin/Documents/GitHub/notes/diary.md/TODO/work.md"
     
+
     source /opt/homebrew/share/zsh-autosuggestions/zsh-autosuggestions.zsh
 fi
 
