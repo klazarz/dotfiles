@@ -36,7 +36,7 @@ set complete+=kspell
 "set completeopt=menuone,longest
 set completeopt=menuone,noselect
 set cursorline
-
+set clipboard+=unnamed
 
 
 call plug#begin('~/.vim/plugged')
