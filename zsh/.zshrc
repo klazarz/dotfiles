@@ -139,6 +139,10 @@ alias cmail="osascript -e 'tell application \"Microsoft Outlook\"' -e 'set newMe
 
 alias vdiary="vi /Users/klazarz/Oracle\ Content\ -\ Accounts/Oracle\ Content/_orca/06_NOTES/diary.md"
 alias todo="vi /Users/klazarz/Oracle\ Content\ -\ Accounts/Oracle\ Content/_orca/06_NOTES/TODO/work.md"
+
+alias idrive="cd /Users/klazarz/Library/Mobile\ Documents/com~apple~CloudDocs/"
+
+
 source /usr/local/share/zsh-autosuggestions/zsh-autosuggestions.zsh
 fi
 
