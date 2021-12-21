@@ -29,7 +29,7 @@ export EDITOR="/usr/local/bin/mate -w"
 # load a random theme each time oh-my-zsh is loaded, in which case,
 # to know which specific one was loaded, run: echo $RANDOM_THEME
 # See https://github.com/ohmyzsh/ohmyzsh/wiki/Themes
-ZSH_THEME="robbyrussell"
+ZSH_THEME="lukerandall"
 
 # Set list of themes to pick from when loading at random
 # Setting this variable when ZSH_THEME=random will cause zsh to load
@@ -132,13 +132,13 @@ alias orca="cd /Users/klazarz/Oracle\ Content\ -\ Accounts/Oracle\ Content/_orca
 alias pp="open -b com.microsoft.Powerpoint"
 alias xx="open -b com.microsoft.Excel"
 alias ww="open -b com.microsoft.Word"
-alias notes="cd /Users/klazarz/Oracle\ Content\ -\ Accounts/Oracle\ Content/_orca/06_NOTES/"
+alias notes="cd /Users/klazarz/Library/Mobile\ Documents/com~apple~CloudDocs/Documents/oranotes"
 alias lab="cd /Users/klazarz/Documents/GitHub/learning-library"
 alias projects="cd /Users/klazarz/Oracle\ Content\ -\ Accounts/Oracle\ Content/_orca/02_WORK/01_PROJECTS"
 alias cmail="osascript -e 'tell application \"Microsoft Outlook\"' -e 'set newMessage to make new outgoing message' -e 'open newMessage' -e 'end tell'"
 
-alias vdiary="vi /Users/klazarz/Oracle\ Content\ -\ Accounts/Oracle\ Content/_orca/06_NOTES/diary.md"
-alias todo="vi /Users/klazarz/Oracle\ Content\ -\ Accounts/Oracle\ Content/_orca/06_NOTES/TODO/work.md"
+alias vdiary="vi /Users/klazarz/Library/Mobile\ Documents/com~apple~CloudDocs/Documents/oranotes/diary.md"
+alias todo="vi /Users/klazarz/Library/Mobile\ Documents/com~apple~CloudDocs/Documents/oranotes/TODO/work.md"
 
 alias idrive="cd /Users/klazarz/Library/Mobile\ Documents/com~apple~CloudDocs/"
 
@@ -149,11 +149,11 @@ fi
 
 if [ -f '.bubo' ]; then 
     alias idrive="cd /Users/kevin/Library/Mobile\ Documents/com~apple~CloudDocs/"
-    alias notes="cd /Users/kevin/Documents/GitHub/notes/"
+    alias notes="cd //Users/kevin/Library/Mobile\ Documents/com~apple~CloudDocs/Documents/oranotes/"
     
-    alias vdiary="vi /Users/kevin/Documents/GitHub/notes/diary.md"
+    alias vdiary="vi /Users/kevin/Library/Mobile\ Documents/com~apple~CloudDocs/Documents/oranotes/diary.md"
 
-    alias todo="vi /Users/kevin/Documents/GitHub/notes/diary.md/TODO/work.md"
+    alias todo="vi /Users/kevin/Library/Mobile\ Documents/com~apple~CloudDocs/Documents/oranotes/TODO/work.md"
     
 
     source /opt/homebrew/share/zsh-autosuggestions/zsh-autosuggestions.zsh
