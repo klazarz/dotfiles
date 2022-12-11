@@ -118,6 +118,15 @@ alias vim="nvim"
 alias vi="nvim"
 alias dotfiles="cd ~/.dotfiles"
 
+alias httptunnel="ssh -D 8080 -f -C -q -N -p 1902 pi@hafur.ddns.net"
+alias vnctunnel="ssh -p 1902 pi@hafur.ddns.net -L 5901:192.168.1.200:5900 -N ssh kevin@192.168.1.200"
+alias home="ssh -J pi@hafur.ddns.net:1902 kevin@192.168.1.200"
+
+alias myssh="cat /Users/kevin/.ssh/id_rsa.pub | pbcopy"
+
+alias python="/opt/homebrew/bin/python3.11"
+alias pip="/opt/homebrew/bin/pip3.11"
+
 source /opt/homebrew/share/zsh-autosuggestions/zsh-autosuggestions.zsh
 
 
